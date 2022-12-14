@@ -31,7 +31,7 @@ var Dbg = Logger{
 }
 
 var Warn = Logger{
-	Level:     2,
+	Level:     0,
 	Color:     color.New(color.FgHiMagenta, color.Bold),
 	StdLogger: log.New(os.Stderr, "WARNING : ", 0),
 }
